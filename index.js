@@ -34,7 +34,6 @@ exports.addMessage = functions.https.onRequest((req, res) => {
 
   // const sanitizedMessage = sanitizer.sanitizeText(text); // Sanitize the message.
   //collection('cities').doc('LA').set(data);
-  // https://us-central1-torah-academy.cloudfunctions.net/addMessage
 
 
 return admin.firestore().collection('stallion').doc().set({
